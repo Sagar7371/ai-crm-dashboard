@@ -1,0 +1,49 @@
+.analytics-kicker{display:none}
+.analytics-heading{margin-bottom:10px;align-items:center}
+.analytics-heading h1{margin:0 0 4px;font-size:18px;letter-spacing:-.35px}
+.analytics-heading p{font-size:8px}
+.analytics-view-reports{display:none}
+.analytics-period{height:27px;padding:0 7px}
+.analytics-period select{max-width:160px}
+.analytics-kpis{gap:8px;margin-bottom:9px}
+.analytics-metric{min-height:75px;padding:8px 9px;border-radius:6px}
+.metric-top{font-size:7px;margin-bottom:3px}
+.metric-icon{width:23px;height:23px;border-radius:6px}
+.analytics-metric>strong{font-size:16px;margin-bottom:2px}
+.metric-change{font-size:6px;gap:4px}.metric-change small{font-size:6px}
+.analytics-chart-grid{grid-template-columns:1.18fr 1fr 1fr;gap:8px}
+.analytics-panel{padding:9px;border-radius:6px}
+.revenue-report-panel,.source-panel,.win-loss-panel{min-height:190px}
+.analytics-panel-head{margin-bottom:5px}.analytics-panel-head h2{font-size:8px}
+.bar-chart-area{height:143px;gap:5px}.bar-y-axis{width:24px;font-size:6px}.bars{inset:4px 4px 0;gap:5px}
+.bar-track>i{width:min(18px,68%);background:linear-gradient(180deg,#438ae5,#3273d1)!important;border-radius:2px 2px 0 0}
+.bar-group>small{font-size:6px}
+.source-chart-layout{flex-direction:column;gap:9px;padding:4px 0 0}
+.source-donut{width:88px;height:88px;background:conic-gradient(#3983e3 0 36%,#40b88b 36% 56%,#8b6cdf 56% 76%,#eba44c 76% 91%,#9eabba 91% 100%)}
+.source-donut:before{inset:12px}.source-donut strong{font-size:12px}.source-donut small{font-size:6px}
+.source-legend{width:100%;display:grid;grid-template-columns:1fr 1fr;gap:5px 7px;padding:0 1px}
+.source-legend>div{gap:3px}.source-legend>div>span{gap:3px;font-size:6px;white-space:nowrap}.source-legend i{width:6px;height:6px}.source-legend strong{font-size:6px}.source-legend strong small{font-size:6px}
+.win-loss-content{flex-direction:column;gap:10px;padding:7px 0 0}
+.win-loss-donut{width:88px;height:88px;background:conic-gradient(#39b585 0 52%,#f17e73 52% 80%,#498ce1 80% 100%)}
+.win-loss-donut:before{inset:12px}.win-loss-donut strong{font-size:12px}.win-loss-donut small{font-size:6px}
+.win-loss-stats{width:100%;min-width:0;gap:6px}.win-loss-stats>div{gap:5px}.win-loss-stats span{gap:4px;font-size:6px}.win-loss-stats strong{font-size:6px}.win-dot{background:#39b585}.loss-dot{background:#f17e73}.open-dot{background:#498ce1}
+.analytics-footnote{padding-top:7px;font-size:6px}
+@media(max-width:900px){.analytics-chart-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.revenue-report-panel{grid-column:1/-1}.source-panel,.win-loss-panel{min-height:230px}.source-chart-layout,.win-loss-content{flex-direction:row}.source-donut,.win-loss-donut{width:100px;height:100px}.source-legend{width:auto;grid-template-columns:1fr}}
+@media(max-width:650px){.analytics-chart-grid{grid-template-columns:1fr}.revenue-report-panel{grid-column:auto}.analytics-heading{align-items:flex-start;flex-direction:column}.analytics-actions{width:100%}.source-panel,.win-loss-panel{min-height:190px}.source-chart-layout,.win-loss-content{flex-direction:row}.source-donut,.win-loss-donut{width:88px;height:88px}}
+
+.analytics-metric{display:grid;grid-template-columns:25px minmax(0,1fr);grid-template-rows:auto auto auto;align-content:center;align-items:center;column-gap:8px;row-gap:1px}
+.metric-top{display:contents}
+.metric-top>span{grid-column:2;grid-row:1;align-self:end;font-size:8px}
+.analytics-metric>strong{grid-column:2;grid-row:2;align-self:center;font-size:17px}
+.metric-change{grid-column:2;grid-row:3;align-self:start;font-size:7px}
+.metric-change small{font-size:6px}
+.metric-icon{grid-column:1;grid-row:1/4;align-self:center;width:24px;height:24px;border-radius:50%}
+.source-chart-layout,.win-loss-content{flex-direction:row;justify-content:center;gap:10px}
+.source-donut,.win-loss-donut{width:88px;height:88px}
+.source-donut:before,.win-loss-donut:before{inset:12px}
+.source-legend{width:auto;flex:1;min-width:0;grid-template-columns:1fr;gap:5px}
+.source-legend>div>span,.source-legend strong{font-size:7px}
+.win-loss-stats{flex:1;min-width:0;gap:7px}
+.win-loss-stats span,.win-loss-stats strong{font-size:7px}
+@media(max-width:900px){.source-chart-layout,.win-loss-content{flex-direction:row}.source-legend{width:auto;grid-template-columns:1fr}}
+@media(max-width:650px){.source-chart-layout,.win-loss-content{flex-direction:row}.source-donut,.win-loss-donut{width:82px;height:82px}}

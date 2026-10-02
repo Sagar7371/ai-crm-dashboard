@@ -1,0 +1,65 @@
+.crm-shell>.sidebar{background:#101b2e;border-color:#1e2a3d;color:#d5dfed}
+.crm-shell>.sidebar .brand{color:#f4f7fc}
+.crm-shell>.sidebar .brand-mark{background:#246bc8;box-shadow:none}
+.crm-shell>.sidebar .workspace-switch{background:#17243a;border-color:#2b3850;color:#aab9cf}
+.crm-shell>.sidebar .workspace-copy strong,.crm-shell>.sidebar .profile-copy strong{color:#eef3fb}
+.crm-shell>.sidebar .workspace-copy small,.crm-shell>.sidebar .profile-copy small{color:#91a2bb}
+.crm-shell>.sidebar .workspace-avatar{background:#236fd2}
+.crm-shell>.sidebar .nav-caption{color:#74839a}
+.crm-shell>.sidebar .nav-link{color:#a8b6ca}
+.crm-shell>.sidebar .nav-link:hover{background:#1a2a43;color:#fff}
+.crm-shell>.sidebar .nav-link.active{background:#1d5ba9;color:#fff}
+.crm-shell>.sidebar .nav-count{background:#28466a;color:#d9e9ff}
+.crm-shell>.sidebar .profile{border-color:#27354a;color:#aab9cf}
+.crm-shell>.sidebar .avatar-profile{background:#d5e6ff;color:#28578d}
+.crm-shell>.sidebar .mobile-close{color:#d6e2f2}
+.crm-shell .main-area{background:#f5f7fb}
+.crm-shell .topbar{height:58px}
+.crm-shell .page-content{padding-top:25px}
+.crm-shell .welcome-row{margin-bottom:18px}
+.crm-shell .welcome-row h1{font-size:24px;letter-spacing:-.6px}
+.crm-shell .wave{font-size:17px;vertical-align:2px}
+.crm-shell .eyebrow{letter-spacing:.8px}
+.crm-shell .button-primary{background:#1769d2;border-color:#1769d2;box-shadow:none}
+.crm-shell .button-primary:hover{background:#125bb9}
+.crm-shell .button-secondary{height:34px}
+.crm-shell .stats-grid{gap:12px;margin-bottom:13px}
+.crm-shell .stat-card{min-height:91px;padding:12px 14px}
+.crm-shell .stat-value{font-size:21px;margin:2px 0}
+.crm-shell .dashboard-grid{grid-template-columns:minmax(0,1.65fr) minmax(270px,.85fr);gap:13px;margin-bottom:13px}
+.crm-shell .revenue-panel,.crm-shell .funnel-panel{min-height:250px;padding:14px 15px}
+.crm-shell .revenue-total{margin-top:9px}
+.crm-shell .chart-wrap{height:112px;margin-top:5px}
+.crm-shell .chart-x-labels{font-size:8px}
+.crm-shell .bottom-grid{grid-template-columns:minmax(0,1.6fr) minmax(270px,.9fr);gap:13px}
+.crm-shell .leads-panel,.crm-shell .followup-panel{min-height:212px;padding:14px 15px}
+.crm-shell .lead-table tbody tr{height:40px}
+.crm-shell .lead-person .avatar{width:27px;height:27px}
+.crm-shell .followup-panel .panel-heading{margin-bottom:9px}
+.funnel-total{display:flex;align-items:baseline;gap:7px;margin:10px 0}
+.funnel-total strong{font:700 18px Manrope,sans-serif}
+.funnel-total span{font-size:9px;color:#9999a8}
+.funnel-list{display:grid;gap:5px}
+.funnel-row{height:25px;display:grid;grid-template-columns:minmax(0,1fr) 59px 36px;align-items:center;gap:8px;font-size:8px;color:#656579}
+.funnel-row strong{font-weight:500}
+.funnel-row>b{text-align:right;font-size:8px;color:#45445a}
+.funnel-shape{display:block;height:22px;clip-path:polygon(0 0,100% 0,calc(100% - 9px) 100%,9px 100%);border-radius:2px;opacity:.9}
+.funnel-blue{background:#438ff0}.funnel-purple{background:#785ee9}.funnel-coral{background:#e98572}.funnel-green{background:#53bb94}
+.followup-list{display:grid}
+.followup-item{min-height:39px;display:flex;align-items:center;gap:8px;border-bottom:1px solid #f1f2f5}
+.followup-item:last-child{border-bottom:0}
+.followup-item .avatar{width:26px;height:26px;font-size:8px}
+.followup-copy{flex:1;min-width:0;display:grid;gap:3px}
+.followup-copy strong{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:9px;font-weight:600;color:#3b3b50}
+.followup-copy small{font-size:8px;color:#9a9aaa}
+.followup-time{display:grid;justify-items:end;gap:3px}
+.followup-time strong{font-size:8px;color:#66667a}
+.followup-tag{font-size:7px;padding:2px 5px;border-radius:4px}
+.followup-tag.blue{background:#eaf2ff;color:#3479d8}.followup-tag.orange{background:#fff1e6;color:#ce8049}
+.deal-customer{font-size:9px;color:#727285}
+.crm-shell .lead-table thead th{font-size:7px}
+.crm-shell .lead-person strong{font-size:9px}
+.crm-shell .lead-person small{font-size:8px}
+.crm-shell .status-pill{font-size:8px;padding:3px 6px}
+@media(max-width:1100px){.crm-shell .dashboard-grid,.crm-shell .bottom-grid{grid-template-columns:minmax(0,1.4fr) minmax(250px,1fr)}.crm-shell>.sidebar{width:220px}.crm-shell .main-area{margin-left:220px}}
+@media(max-width:780px){.crm-shell>.sidebar{width:255px}.crm-shell .main-area{margin-left:0}.crm-shell .dashboard-grid,.crm-shell .bottom-grid{grid-template-columns:1fr}.crm-shell .funnel-panel,.crm-shell .followup-panel{min-height:auto}}

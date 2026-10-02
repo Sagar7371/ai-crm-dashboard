@@ -1,0 +1,12 @@
+{
+  "name": "crm-ai-dashboard",
+  "private": true,
+  "scripts": {
+    "app": "concurrently \"npm --prefix server run start:clean\" \"npm --prefix client run dev:clean\"",
+    "server": "npm --prefix server run start:clean",
+    "client": "npm --prefix client run dev:clean"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
